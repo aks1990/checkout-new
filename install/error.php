@@ -1,0 +1,1 @@
+ERROR PAGE error: "<b><?php echo $_GET[error];?></b>" for installation of shop:"<b><?php echo $_GET[shop];?></b>"
