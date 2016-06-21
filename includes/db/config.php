@@ -1,7 +1,7 @@
 <?php
 
-define('APP_HOST', 'http://128.199.211.213');
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'bml_app');
-define('DB_USER', 'root');
-define('DB_PASS', 'Asusexe2016');
+define('APP_HOST', 'https://checkout-new.herokuapp.com');
+define('DB_HOST', 'ec2-54-163-240-101.compute-1.amazonaws.com');
+define('DB_NAME', 'deb3n7onflkets');
+define('DB_USER', 'wcvbnnjullacxl');
+define('DB_PASS', 'g3o0AnZCLS6HpIZ89Yws0CxpWR');
