@@ -58,7 +58,7 @@
             
             if (current_page.indexOf('step=payment_method') !== -1) {
                 /*CONFIG ENTRY POINT, change the value for the instance. */
-                var jsonp_url = "https://checkout-new.herokuapp.com/requests/enable-cod-payment.php";
+                var jsonp_url = "https://bml-app.herokuapp.com/requests/enable-cod-payment.php";
                 jsonp_url += "?shop=" + shop + "&current_page=" + current_page;
 
                 // set caching for requests to false
@@ -77,7 +77,7 @@
                     e.preventDefault();
                     
                     /*CONFIG ENTRY POINT, change the value for the instance. */
-                    var jsonp_url = "https://checkout-new.herokuapp.com/requests/get-formatted-data.php";
+                    var jsonp_url = "https://bml-app.herokuapp.com/requests/get-formatted-data.php";
 
                     // set caching for requests to false
                     jQuery.ajaxSetup({ cache: false });

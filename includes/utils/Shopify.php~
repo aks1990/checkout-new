@@ -14,13 +14,13 @@ class Shopify {
 
     protected function initializeKeys($env) {
         if ($env == 'dev') {
-            $this->_APP_KEY = "7d8179f9f2e1b8d8f0de77d4d334cb78";
-            $this->_APP_SECRET = "af549fac8286474bc1ded815585e2d44";
-            $this->_APP_HOST = "checkout-new.herokuapp.com";
+            $this->_APP_KEY = "aa6df2c12937d0c82923a7ea109cf872";
+            $this->_APP_SECRET = "4a43c074b00a9c3ee3c51ad7747dd4cd";
+            $this->_APP_HOST = "bml-app.herokuapp.com";
         } else {
-            $this->_APP_KEY = "7d8179f9f2e1b8d8f0de77d4d334cb78";
-            $this->_APP_SECRET = "af549fac8286474bc1ded815585e2d44";
-            $this->_APP_HOST = "checkout-new.herokuapp.com";
+            $this->_APP_KEY = "524ddd7d3993d837f41cfc1a4d020c80";
+            $this->_APP_SECRET = "13a74bf2ba0e95093f20f64ecb80726b";
+            $this->_APP_HOST = "128.199.211.213";
         }
     }
 
